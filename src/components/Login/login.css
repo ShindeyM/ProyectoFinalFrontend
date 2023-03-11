@@ -1,0 +1,154 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #5f6769;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-titulo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: 30vh;
+  margin: auto;
+}
+
+.login-titulo h2 {
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  color: #54bab9;
+  justify-self: flex-start;
+  /* width: 80%; */
+}
+
+.login-logo img {
+  width: 6.5rem;
+  height: 6rem;
+  border-radius: 10px;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 90%;
+  min-width: 380px;
+  max-width: 900px;
+  background-color: #54bab9;
+
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.derecha label {
+  display: block;
+  font-size: 120%;
+  color: #3c4245;
+  margin-top: 15px;
+}
+
+.derecha input {
+  font-size: 110%;
+  color: #1b262c;
+
+  display: block;
+  width: 100%;
+  height: 40px;
+
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 10px;
+
+  box-sizing: border-box;
+
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.derecha input::placeholder {
+  color: #e4e4e4;
+}
+
+.derecha button {
+  font-size: 110%;
+  color: #1b262c;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #dfcdc3;
+  margin-top: 10px;
+}
+
+.derecha button:hover {
+  background-color: #3c4245;
+  color: #dfcdc3;
+}
+
+.izquierda {
+  text-align: center;
+  width: 60%;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  padding: 20px 20px 20px 50px;
+  box-sizing: border-box;
+}
+
+.titulo {
+  font-size: 300%;
+  color: #f7ecde;
+}
+
+hr {
+  width: 23rem;
+  border-top: 1px solid #dfcdc3;
+  border-bottom: 1px solid #dfcdc3;
+  margin: 2rem;
+}
+
+.izquierda {
+  font-size: 90%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.izquierda a {
+  display: block;
+  text-decoration: none;
+  color: #f7ecde;
+  margin-bottom: 3px;
+}
+
+.izquierda a:hover {
+  color: #e9dac1;
+}
+
+.login-ayuda {
+  font-weight: 600;
+}

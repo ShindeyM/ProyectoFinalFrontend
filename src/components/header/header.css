@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 99vw;
+  height: 15vh;
+  background-color: #f7ecde;
+}
+
+.logoHS {
+  width: auto;
+  height: 100%;
+}
+
+.logoHS img {
+  border-radius: 0;
+}
+
+.menu {
+  width: 80%;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #54bab9;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.menu-items li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.menu-items li:hover {
+  color: #208e8c;
+}
+
+a:-webkit-any-link {
+  color: #54bab9;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.iconos-redes img {
+  border-radius: 0;
+  width: 1.5rem;
+  filter: invert(65%) sepia(60%) saturate(349%) hue-rotate(131deg)
+    brightness(90%) contrast(84%);
+  cursor: pointer;
+}
+
+@media (max-width: 820px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding-left: 0;
+  }
+}
